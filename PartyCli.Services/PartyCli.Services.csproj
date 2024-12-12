@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.*" />
+      <PackageReference Include="MediatR" Version="12.*" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PartyCli.NordVpnClient\PartyCli.NordVpnClient.csproj" />
+      <ProjectReference Include="..\PartyCli.Persistence\PartyCli.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
